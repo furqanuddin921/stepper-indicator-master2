@@ -53,6 +53,8 @@ public class PageFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         final int page = getArguments().getInt("page", 0);
 
+
+        
         System.out.printf("mposition: "+ page);
 
         if(page == 1){
